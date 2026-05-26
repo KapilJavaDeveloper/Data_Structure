@@ -24,7 +24,7 @@ public class Arrays_Insertion_At_Specific_Position{
 
         Scanner sc2 = new Scanner(System.in) ;
         System.out.print("Enter the position where you want to insert a number: ") ;
-        int pos = sc.nextInt() ;
+        int pos = sc2.nextInt() ;
 
         if(pos> arr.length || pos>(size+1) || pos<1 ){
             System.out.println("Invalid position") ;
