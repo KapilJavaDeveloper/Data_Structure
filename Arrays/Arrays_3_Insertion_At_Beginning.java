@@ -4,7 +4,7 @@ public class Arrays_3_Insertion_At_Beginning {
 
         int[] arr = new int[5] ;
         arr[0] = 1 ;
-        arr[1] = 2 ;
+        arr[1] = 2 .;
         arr[2] = 2 ;
         arr[3] = 2 ;
         int size = 4 ;
