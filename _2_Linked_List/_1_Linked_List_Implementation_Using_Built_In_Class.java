@@ -12,7 +12,7 @@ public class _1_Linked_List_Implementation_Using_Built_In_Class {
         str.add("Isskander 2") ;
         str.add("issaknder 3") ;
 
-        System.out.println("Element at index 0 be: " + str.get(0)) ;
+                System.out.println("Element at index 0 be: " + str.get(0)) ;
         System.out.println("Element at index 1 be: " + str.get(1)) ;
 
         System.out.println("Linked List be: " + str) ;

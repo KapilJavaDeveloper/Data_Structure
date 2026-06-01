@@ -9,7 +9,7 @@ class Node{
         this.data = data ;
     }
 }
-public class _1_Doubly_Linked_List {
+public class _1_Doubly_Circular_Linked_List {
     public static void main(String [] args){
         
         Node obj1 = new Node(1);
