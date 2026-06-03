@@ -86,7 +86,7 @@ public class _3_Insertion_At_Specific_Position {
 
         
 
-        list.insert_At_Specific_Position(2,10) ;
+        list.insert_At_Specific_Position(2,3) ;
         System.out.println("Linked List after insertion") ;
         list.display() ;
 
