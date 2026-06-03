@@ -62,6 +62,7 @@ public class _3_Insertion_At_Specific_Position {
 
         if(temp==null){
             System.out.println("Invalid position") ;
+            return ;
         }
 
         newNode.next = temp.next ;
