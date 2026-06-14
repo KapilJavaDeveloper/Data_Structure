@@ -39,7 +39,7 @@ public class _1_Deletion_At_The_Beginning_Of_Circular_Linked_List {
             System.out.print(temp.data + " -> ") ;
             temp = temp.next ;
         }
-        System.out.print(temp.data + " -> " + "null") ;
+        System.out.print(temp.data + " -> " ) ;
     }
 
     public void deletion_From_Beginning(_1_Deletion_At_The_Beginning_Of_Circular_Linked_List list){
