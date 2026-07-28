@@ -17,10 +17,11 @@ public class _1_Bubble_Sort{
                     array[j+1]  = temp ;
                     swapping = true ;
                 }
-                if(swapping==false){
-                    break ;
-                }
+
                
+            }
+            if(swapping==false){
+                    break ;
             }
         }
 
