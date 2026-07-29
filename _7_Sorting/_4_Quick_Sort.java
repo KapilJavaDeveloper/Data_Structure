@@ -5,12 +5,12 @@ public class _4_Quick_Sort {
         int start = lower_Bound ;
         int end = upper_Bound ;
 
-        int pivot = array[upper_Bound]  ;
+        int pivot = array[lower_Bound]  ;
 
         while(start < end){
 
             
-            while(array[start] <= pivot){
+            while(start <= upper_Bound && array[start] <= pivot){
                 start++ ;
                 
             }
@@ -53,6 +53,9 @@ public class _4_Quick_Sort {
         int[] arr = {7, 6, 10 , 5 , 9 , 2 , 1 , 15, 7}  ;
 
         System.out.println("Original Array be: " + Arrays.toString(arr)) ;
+        quick_Sort(arr, 0, arr.length-1);
+        System.out.println("Sorted Array be: " + Arrays.toString(arr)) ;
+
 
 
 
